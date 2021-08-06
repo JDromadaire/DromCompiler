@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Lexer">
+      <UniqueIdentifier>{d9828592-bc6e-407e-b54f-7fc5a2d90c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Lexer">
+      <UniqueIdentifier>{d82ee2db-ee80-4411-a268-57455ccb484b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utils">
+      <UniqueIdentifier>{9e4ceab7-646d-463a-afd6-409de5ab1117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils">
+      <UniqueIdentifier>{b0a804d3-ec32-4c4e-b5ae-65dc5829305f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Node">
+      <UniqueIdentifier>{6b9ed5b3-c24a-4ce6-b3b1-199061508ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Node">
+      <UniqueIdentifier>{7442acc1-508d-411e-a6e6-186b5eb67371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Parser">
+      <UniqueIdentifier>{bea6903b-7c7f-462b-8de2-c7cc82957185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Parser">
+      <UniqueIdentifier>{025bc7c5-1a76-486f-bf0f-afaf68df08f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Compiler">
+      <UniqueIdentifier>{80a3fb83-b893-42b9-97bf-3ab411e38a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Compiler">
+      <UniqueIdentifier>{90b1c61c-f205-49d7-9055-4d69349dd291}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Fichiers sources\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Fichiers sources\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.h">
+      <Filter>Fichiers d%27en-tête\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Fichiers sources\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Fichiers sources\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionCompiler.cpp">
+      <Filter>Fichiers sources\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Compiler.cpp">
+      <Filter>Fichiers sources\Compiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EntryPoint.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>Fichiers d%27en-tête\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Fichiers d%27en-tête\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Fichiers d%27en-tête\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionCompiler.h">
+      <Filter>Fichiers d%27en-tête\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>Fichiers d%27en-tête\Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
